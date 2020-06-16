@@ -256,6 +256,7 @@
     <Content Include="sitecore modules\Shell\UrlRewrite\UrlRewriter.aspx" />
     <Content Include="App_Config\Include\Hi.UrlRewrite.Prefetch.Master.config" />
     <Content Include="App_Config\Include\Hi.UrlRewrite.Aggregation.config" />
+    <None Include="Properties\PublishProfiles\Local Webroot.pubxml" />
     <None Include="sitecore modules\Shell\UrlRewrite\Scripts\jquery-1.9.0.intellisense.js" />
     <Content Include="sitecore modules\Shell\UrlRewrite\Scripts\app.js" />
     <Content Include="sitecore modules\Shell\UrlRewrite\Scripts\bootstrap.js" />
@@ -268,9 +269,7 @@
     <Content Include="sitecore modules\Shell\UrlRewrite\Scripts\npm.js" />
     <Content Include="sitecore modules\Shell\UrlRewrite\Default.aspx" />
     <Content Include="sitecore modules\Shell\UrlRewrite\Scripts\jquery-1.9.0.min.map" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Properties\PublishProfiles\Deploy.pubxml" />
+    <None Include="web.config" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
